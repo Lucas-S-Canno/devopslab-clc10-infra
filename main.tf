@@ -1,6 +1,6 @@
 # Cria uma VM no Google Cloud
 resource "google_compute_instance" "firstvm" {
-  name         = "Terraform"
+  name         = "helloworld"
   machine_type = "n2-standard-2"
   zone         = var.zone
 
