@@ -14,3 +14,8 @@ variable "zone" {
   type        = string
   default     = "us-west1-b"
 }
+
+variable "GOOGLE_CREDENTIALS" {
+  description = "GCP json credentials"
+  type        = string
+}
